@@ -1,16 +1,27 @@
 {
   "name": "curated-addons",
+  "description": "Scrape some Firefox Add-on info from AMO.",
   "version": "1.0.0",
-  "description": "",
-  "bin": "cli.js",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bin": {
+    "curated-addons": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/curated-addons/issues"
+  },
+  "dependencies": {
+    "axios": "0.18.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/curated-addons#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/curated-addons.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
-  "license": "MPL-2.0",
-  "dependencies": {
-    "puppeteer": "1.13.0"
   }
 }
