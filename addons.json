@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Privacy/Security - Tier 1",
+    "addons": [
+      "ghostery",
+      "multi-account-containers",
+      "adblocker-ultimate"
+    ]
+  },
+  {
+    "category": "Privacy/Security - Tier 2",
+    "addons": [
+      "adblock-for-youtube",
+      "forget_me_not",
+      "webmail-ad-blocker"
+    ]
+  }
+]
