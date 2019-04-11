@@ -11,6 +11,5 @@ main(addons)
 
 async function main(addons) {
   const res = await lib.fetchAddons(addons);
-  console.log(JSON.stringify(res,  null, 2));
-  process.exit(0);
+  console.log(JSON.stringify(res, null, 2));
 }

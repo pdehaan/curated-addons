@@ -44,51 +44,72 @@ Assuming the following [addons.json](./addons.json) input file:
 ```sh
 $ npx pdehaan/curated-addons
 
-{
-  "category": "Privacy/Security - Tier 1",
-  "addons": [
-    {
-      "slug": "ghostery",
-      "title": "Ghostery – Privacy Ad Blocker",
-      "author": "Ghostery",
-      "version": "8.3.1",
-      "summary": "Ghostery is a powerful privacy extension. Block ads, stop trackers and speed up websites.",
-      "isFeatured": true,
-      "homepage": "http://www.ghostery.com/",
-      "metadata": {
+[
+  {
+    "category": "Privacy/Security - Tier 1",
+    "addons": [
+      {
+        "name": "Ghostery – Privacy Ad Blocker",
+        "version": "8.3.1",
+        "guid": "firefox@ghostery.com",
+        "author": "Ghostery",
+        "summary": "Ghostery is a powerful privacy extension. \n\nBlock ads, stop trackers and speed up websites.",
+        "type": "extension",
+        "size": 7528085,
+        "createdDate": "2008-11-15T11:19:34.000Z",
+        "lastUpdated": "2019-01-31T21:25:09.000Z",
+        "license": "Mozilla Public License, version 2.0",
+        "isFeatured": true,
+        "isSourcePublic": true,
+        "ratings": 4.4436,
+        "reviewCount": 2888,
         "users": 1146072,
-        "reviews": 2888,
-        "rating": 4.4
+        "weeklyDownloads": 71438,
+        "homepage": "http://www.ghostery.com/",
+        "url": "https://addons.mozilla.org/firefox/addon/ghostery/",
+        "slug": "ghostery"
+      },
+      {
+        "name": "Firefox Multi-Account Containers",
+        "version": "6.1.0",
+        // ...
+      },
+      {
+        "name": "AdBlocker Ultimate",
+        "version": "2.37",
+        // ...
       }
-    },
-    {
-      "slug": "multi-account-containers",
-      "title": "Firefox Multi-Account Containers",
-      "author": "Mozilla",
-      "version": "6.1.0",
-      "summary": "Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.",
-      "isFeatured": true,
-      "homepage": "https://github.com/mozilla/multi-account-containers/#readme",
-      "metadata": {
-        "users": 186461,
-        "reviews": 2638,
-        "rating": 4.5
-      }
-    },
-    {
-      "slug": "adblocker-ultimate",
-      "title": "AdBlocker Ultimate",
-      "author": "AdBlocker Ultimate",
-      "version": "2.37",
-      "summary": "Free and improved ad blocker. Completely remove ALL ads. No \"acceptable\" ads or whitelisted advertisers, block tracking, block malware!",
-      "isFeatured": true,
-      "homepage": "https://adblockultimate.net",
-      "metadata": {
-        "users": 415361,
-        "reviews": 5309,
-        "rating": 4.7
-      }
-    }
-  ]
-}
+    ]
+  },
+  {
+    "category": "Privacy/Security - Tier 2",
+    "addons": [
+      {
+        "name": "AdBlocker for YouTube™",
+        "version": "0.2.9",
+        "guid": "jid1-q4sG8pYhq8KGHs@jetpack",
+        "author": "AdblockLite",
+        "summary": "Removes all annoying Ads from YouTube",
+        "type": "extension",
+        "size": 38990,
+        "createdDate": "2015-03-29T02:01:10.000Z",
+        "lastUpdated": "2018-08-31T15:52:30.000Z",
+        "license": "Mozilla Public License, version 2.0",
+        "isFeatured": true,
+        "isSourcePublic": true,
+        "ratings": 4.0864,
+        "reviewCount": 220,
+        "users": 228258,
+        "weeklyDownloads": 7661,
+        "homepage": "http://mybrowseraddon.com/clean-youtube.html",
+        "url": "https://addons.mozilla.org/firefox/addon/adblock-for-youtube/",
+        "slug": "adblock-for-youtube"
+      },
+      {
+        "name": "Forget Me Not - Forget cookies & other data",
+        "version": "2.2.1",
+        // ...
+    ]
+  }
+]
 ```

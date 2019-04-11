@@ -1,6 +1,6 @@
 [
   {
-    "category": "Privacy/Security - Tier 1",
+    "category": "Privacy/Security - A",
     "addons": [
       "ghostery",
       "multi-account-containers",
@@ -8,7 +8,7 @@
     ]
   },
   {
-    "category": "Privacy/Security - Tier 2",
+    "category": "Privacy/Security - B",
     "addons": [
       "adblock-for-youtube",
       "forget_me_not",
