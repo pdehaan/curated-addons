@@ -30,6 +30,7 @@ async function getAddon(slug) {
   const size = addon.current_version.files[0].size;
   const createdDate = new Date(addon.created);
   const lastUpdated = new Date(addon.last_updated);
+
   return {
     name: addon.name["en-US"],
     version: addon.current_version.version,
